@@ -4,6 +4,7 @@
 # Sample windapsearch --users output:
 # cn: Doe, John
 # userPrincipalName: john.doe@company.com
+# don't forget to chmod +x the file 
 
 file_path="/path/to/user_list.txt"
 
