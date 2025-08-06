@@ -1,0 +1,8 @@
+## Script for going through directories and running git status in each one
+for d in */; do
+  if [ -d "$d/.git" ]; then
+    echo "📂 $d"
+    (cd "$d" && git status .)
+    echo ""
+  fi
+done
